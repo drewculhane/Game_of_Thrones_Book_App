@@ -9,16 +9,17 @@ ReactProject
 
 ## Project Description
 
-Use this section to describe your final project and perhaps any links to relevant sites that help convey the concept and\or functionality.
+My final project will deliver information about the book series "A Song of Ice and Fire" on which, Game of Thrones is based. 
+It will list all the books. Clicking on add to favorites in mobile will add the book on another page "spotlight" which can be accesesed via the main 
+navigation. A homepage and an about page will also exist, with some information, and links, and some aesthetically pleasing elements. 
+
+The main difference between the functionality of desktop and mobile, will be that in desktop, clicking on a book in the list will put it in the spotlight INSIDE Book List, and they can receive more information on the book in that altered spotlight. In the spotlight section of Book List, if the user clicks favorites, then Navigates to "spotlight/favorites" section through the nav in desktop, they can see their saved book, and if minimum MVP is reached, at post MVP, I might try to use an additional API/string literal link to link the user to amazon to buy the book.  
 
 ## API
 
-Use this section to include info about the API you have chosen and a code snippet of the data that it returns and is required for your project. 
+Please find the API in the codesandbox below. If you console.log, you will see that the API and my code for the retrieval, are fully functional. 
 
-
-```
-{data: {} }
-```
+-[https://codesandbox.io/s/api-test-got-mfxxv]()
 
 
 ## Wireframes
