@@ -27,17 +27,25 @@ main {
     justify-content: center; 
     flex-direction: column; 
 }
+.HomerouterContainer {
+  display: flex; 
+  justify-content: center; 
+}
 .MobileHomepageBase {
     background-image: url('https://res.cloudinary.com/dgmpgmo60/image/upload/v1593293511/Mobile_Home_Base_2_clerfo.png');
     min-height: 640px; 
+    max-height: 640px;
     min-width: 375px; 
+    max-width: 375px; 
     background-repeat: no-repeat; 
     background-size: cover; 
 }
 .MobileHomepageAnimation { 
     background-image: url('https://res.cloudinary.com/dgmpgmo60/image/upload/v1593293888/Mobile_Home_Animation_Layer_f9l55w.png');
     min-height: 640px; 
+    max-height: 640px; 
     min-width: 375px; 
+    max-width: 375px; 
     background-repeat: no-repeat; 
     background-size: cover; 
     animation: glow3 1.5s alternate infinite; 
@@ -45,17 +53,109 @@ main {
 .AboutFirstLayer {
     background-image: url('https://res.cloudinary.com/dgmpgmo60/image/upload/v1593309461/About_first_layer_mobile_1_nfpwwc.png');
     min-height: 640px; 
+    max-height: 640px; 
     min-width: 375px; 
+    max-width: 375px; 
     background-repeat: no-repeat; 
     background-size: cover; 
+}
+.Aboutroutercontainer {
+  display: flex; 
+  justify-content: center; 
+  background-size: cover; 
+  background-image: url('https://res.cloudinary.com/dgmpgmo60/image/upload/v1593392149/wallpaper-2292997_okqyok.jpg')
 }
 .AboutAnimationLayer {
     background-image: url('https://res.cloudinary.com/dgmpgmo60/image/upload/v1593309470/About_second_layer_mobile_h0rzx2.png');
     min-height: 640px; 
+    max-height: 640px;
     min-width: 375px; 
+    max-width: 375px; 
     background-repeat: no-repeat; 
     background-size: cover; 
     animation: glow3 1.5s alternate infinite; 
+}
+.BookListContainer {
+  display: flex; 
+  justify-content: center; 
+  flex-direction: column; 
+}
+.ShelfAnimationContainer {
+  background-image: url('https://res.cloudinary.com/dgmpgmo60/image/upload/v1593381159/dark-wood-texture_opyudw.jpg'); 
+  display: flex; 
+  justify-content: center; 
+}
+.BookChains {
+  min-height: 400px; 
+  max-height: 400px; 
+  min-width: 375px; 
+  max-width: 375px; 
+  background-repeat: no-repeat; 
+  background-size: cover; 
+  background-image: url('https://res.cloudinary.com/dgmpgmo60/image/upload/v1593390502/BookList_base_mobile_2_oe4qaj.png');
+  margin-bottom: 10px; 
+  
+}
+ .ShortChain {
+  position: relative; 
+  top: 120px;
+  left: 233px; 
+  animation: swinging 1.5s ease-in-out infinite; 
+  transform-origin: top center; 
+}
+.LongChain {
+  position: relative; 
+  top: 216px; 
+  left: -111px; 
+  animation: swinging2 1s ease-in-out infinite; 
+  transform-origin: top center; 
+}
+.LongChain2 {
+  position: relative; 
+  top: 205px; 
+  left: -78px; 
+  animation: swinging2 1.5s ease-in-out infinite; 
+  transform-origin: top center; 
+}
+.LongChain3 {
+  position: relative; 
+  top: 180px; 
+  left: -78px; 
+  animation: swinging2 1.5s ease-in-out infinite; 
+  transform-origin: top center; 
+}
+.LongChain4 {
+  position: relative; 
+  top: 199px; 
+  left: -40px;  
+  animation: swinging2 1.5s ease-in-out infinite; 
+  transform-origin: top center; 
+}
+@keyframes swinging{
+  0%{transform: rotate(4deg);}
+  10%{transform: rotate(3deg);}
+  20%{transform: rotate(1deg)}
+  30%{transform: rotate(-1deg)}
+  40%{transform: rotate(-3deg)}
+  50%{transform: rotate(-4deg)}
+  60%{transform: rotate(-3deg)}
+  70%{transform: rotate(-1deg)}
+  80%{transform: rotate(1deg)}
+  90%{transform: rotate(3deg)}
+  100%{transform: rotate(4deg);}
+}
+@keyframes swinging2 {
+  0%{transform: rotate(-2deg);}
+  10%{transform: rotate(-1.5deg);}
+  20%{transform: rotate(-0.5deg)}
+  30%{transform: rotate(0.5deg)}
+  40%{transform: rotate(1.5deg)}
+  50%{transform: rotate(2deg)}
+  60%{transform: rotate(1.5deg)}
+  70%{transform: rotate(0.5deg)}
+  80%{transform: rotate(-0.5deg)}
+  90%{transform: rotate(-1.5deg)}
+  100%{transform: rotate(-2deg);}
 }
 @keyframes glow3 {
     0%{ opacity: 0.2;}
@@ -83,6 +183,7 @@ main {
 .ListANDSpotlight {
   display: flex;
   justify-content: space-around;
+  background-image: url('https://res.cloudinary.com/dgmpgmo60/image/upload/v1593381159/dark-wood-texture_opyudw.jpg')
 }
 .BookWrapper {
   background-image: url("https://res.cloudinary.com/dgmpgmo60/image/upload/v1593190665/0359724b79a249b66a8326bd088f2bbb_rvogpv.png");

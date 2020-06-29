@@ -40,6 +40,18 @@ function BookList(props) {
   });
   return (
     <>
+      <div className="BookListContainer">
+      <div className="ShelfAnimationContainer">
+      <div className="BookChains">
+        <img className="ShortChain" src="https://res.cloudinary.com/dgmpgmo60/image/upload/v1593390493/shortchainmobile_mfqonm.png" alt="chain" /> 
+        <img className="LongChain" src="https://res.cloudinary.com/dgmpgmo60/image/upload/v1593390473/BookList_long_chain_wqtvhw.png" alt="chain"/>
+        <img className="LongChain2" src="https://res.cloudinary.com/dgmpgmo60/image/upload/v1593390473/BookList_long_chain_wqtvhw.png" alt="chain"/>
+        <img className="LongChain3" src="https://res.cloudinary.com/dgmpgmo60/image/upload/v1593390473/BookList_long_chain_wqtvhw.png" alt="chain"/>
+        <img className="LongChain3" src="https://res.cloudinary.com/dgmpgmo60/image/upload/v1593390473/BookList_long_chain_wqtvhw.png" alt="chain"/>
+        <img className="LongChain4" src="https://res.cloudinary.com/dgmpgmo60/image/upload/v1593390473/BookList_long_chain_wqtvhw.png" alt="chain"/>
+        <img />
+      </div>
+      </div> 
       <div className="ListANDSpotlight">
         <div className="BookList">{booksToDisplay}</div>
         <div className="Spotlight">
@@ -59,6 +71,7 @@ function BookList(props) {
             </button>
           </div>
         </div>
+      </div>
       </div>
     </>
   );
