@@ -19,7 +19,11 @@ function Favorites(props) {
   return (
     <>
       <div className="Favelist">
-        <p> Find your favorites here. </p>
+        <div className="FaveBaseLayer">
+          <div className="FaveAnimationLayer">
+          </div>
+        </div>
+        <p className="FavoritesHeaderNew"> Find your favorites here. </p>
         <div className="BooksToDisplay"> {booksToDisplay} </div>
       </div>
     </>

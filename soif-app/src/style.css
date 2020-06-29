@@ -16,20 +16,54 @@
 .App {
   font-family: sans-serif;
   text-align: center;
+  background-color: #1C1D18; 
 }
-nav {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
+header {
+  display: flex; 
+  overflow-x: hidden; 
+}
+.navbar{
+  background-color: #1C1D18 !important; 
+  color: #FCE080 !important;
+  font-family: Morpheus !important;  
+  min-height: 50px; 
+  min-width: 375px ! important; 
+  overflow-x: hidden ! important; 
+  border: 2px solid #EEB61A; 
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;   
+}
+.navbar-toggler-icon {
+  color: #EEB61A !important; 
+}
+.BookEndBrand {
+  max-height: 65px;  
+  max-width: 15px; 
+  min-height: 45px; 
+  min-width: 20px; 
+}
+.BookendTwo {
+  max-height: 65px;  
+  max-width: 15px; 
+  min-height: 45px; 
+  min-width: 20px; 
+}
+.navbar-brand {
+  color: #FCE080 !important; 
+}
+a {
+  color: #FCE080 !important; 
 }
 main { 
     display: flex; 
     justify-content: center; 
     flex-direction: column; 
+    background-color: #1C1D18;
 }
 .HomerouterContainer {
   display: flex; 
   justify-content: center; 
+  margin-top: 50px; 
 }
 .MobileHomepageBase {
     background-image: url('https://res.cloudinary.com/dgmpgmo60/image/upload/v1593293511/Mobile_Home_Base_2_clerfo.png');
@@ -79,11 +113,13 @@ main {
   display: flex; 
   justify-content: center; 
   flex-direction: column; 
+  margin-top: 60px; 
 }
 .ShelfAnimationContainer {
   background-image: url('https://res.cloudinary.com/dgmpgmo60/image/upload/v1593381159/dark-wood-texture_opyudw.jpg'); 
   display: flex; 
   justify-content: center; 
+  border: none; 
 }
 .BookChains {
   min-height: 400px; 
@@ -180,13 +216,27 @@ main {
     95%{ opacity: 0.2;}
     100%{ opacity: 0.2;}
 }
+.FavoritesInstructions {
+  background-color:  #1C1D18;
+  padding: 20px; 
+  border: 1px solid #EEB61A; 
+}
+.TextFavoritesInstructions {
+  font-family: Morpheus; 
+  color: #EEB61A;
+}
+.SoiFChronology {
+  color: #EEB61A; 
+  font-size: 14px; 
+}
 .ListANDSpotlight {
   display: flex;
   justify-content: space-around;
-  background-image: url('https://res.cloudinary.com/dgmpgmo60/image/upload/v1593381159/dark-wood-texture_opyudw.jpg')
+  background-image: url('https://res.cloudinary.com/dgmpgmo60/image/upload/v1593381159/dark-wood-texture_opyudw.jpg'); 
+  padding-top: 20px; 
 }
 .BookWrapper {
-  background-image: url("https://res.cloudinary.com/dgmpgmo60/image/upload/v1593190665/0359724b79a249b66a8326bd088f2bbb_rvogpv.png");
+  background-image: url("https://res.cloudinary.com/dgmpgmo60/image/upload/v1593461394/Bookcoverrevision_ecuck2.png");
   background-repeat: no-repeat;
   display: flex;
   height: 300px;
@@ -194,7 +244,7 @@ main {
 }
 .BookTitleWrapper {
   position: relative;
-  top: 68px;
+  top: 85px; 
   left: 64px;
   background-color: none;
   height: 60px;
@@ -238,7 +288,7 @@ main {
 }
 
 .BookWrapper2 {
-  background-image: url("https://res.cloudinary.com/dgmpgmo60/image/upload/v1593190665/0359724b79a249b66a8326bd088f2bbb_rvogpv.png");
+  background-image: url("https://res.cloudinary.com/dgmpgmo60/image/upload/v1593461394/Bookcoverrevision_ecuck2.png");
   background-repeat: no-repeat;
   background-size: cover;
   min-height: 270px;
@@ -294,4 +344,86 @@ main {
 .FavoritesContainer {
   min-height: 300px;
   min-width: 100px;
+}
+.Favelist {
+  display: flex; 
+  flex-direction: column; 
+  justify-content: center; 
+  margin-top: 100px; 
+  min-height: 100vh; 
+}
+.BookDisplaySwitch {
+  display: flex; 
+  flex-direction: column; 
+  justify-content: center; 
+  background-color: #1C1D18; 
+  margin-left: 20px; 
+  margin-right: 20px;
+  border-radius: 10px; 
+  border: 5px solid #f9ad4f;  
+  margin-bottom: 50px; 
+}
+.BooksToDisplay {
+  display: flex; 
+  flex-direction: column; 
+}
+.BookWrapper3 {
+  background-image: url("https://res.cloudinary.com/dgmpgmo60/image/upload/v1593461394/Bookcoverrevision_ecuck2.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 270px;
+  max-height: 500px;
+  z-index: 3;
+  max-width: 150px;
+  min-width: 240px;
+  margin: 0%; 
+  align-self: center; 
+}
+.FavesDetailsContainer {
+ color: black; 
+  position: relative;
+  top: 83px; 
+  left: 45px; 
+  font-family: Morpheus;
+  font-weight: bold;
+  font-size: 15px;
+  max-width: 140px;
+  min-height: 90px;
+  border-radius: 6px;
+}
+.FavesBookName {
+color: black; 
+}
+.FaveBookName {
+color: black; 
+font-family: Morpheus; 
+}
+.FaveAuthor {
+color: black; 
+}
+.AdditionalFaveDetails {
+color: #f9ad4f;
+display: flex;
+flex-direction: column;
+flex-wrap: wrap;
+font-size: 18px;
+justify-content: space-around;
+margin-left: 10%;
+margin-right: 10%;
+margin-top: 2%;
+min-height: 200px; 
+}
+.AdditionalFaveDetails button{
+margin-top: -40px; 
+}
+.AdditionalFaveDetails p {
+  margin-bottom: -10px; 
+  margin-top: -40px; 
+  font-family: Morpheus; 
+  font-size: 20px; 
+}
+.FavoritesHeaderNew {
+  color: #EEB61A;
+  font-family: Morpheus; 
+  font-size: 30px; 
 }

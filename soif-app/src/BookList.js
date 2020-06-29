@@ -52,6 +52,17 @@ function BookList(props) {
         <img />
       </div>
       </div> 
+      <div className="FavoritesInstructions">
+        <p className="TextFavoritesInstructions"> All the books below are related to the universe of Ice and Fire, 
+        but only those listed directly below are part of the series' chronology. <br></br><br></br> To add a book to your favorites, simply click on the favorite button on the book cover, and view more about the book in the Favorites tab. </p>
+        <ol className="SoiFChronology">
+          <li> A Game of Thrones</li>
+          <li> A Clash of Kings</li>
+          <li> A Storm of Swords</li>
+          <li> A Feast for Crows</li>
+          <li> A Dance with Dragons</li> 
+        </ol>
+      </div>
       <div className="ListANDSpotlight">
         <div className="BookList">{booksToDisplay}</div>
         <div className="Spotlight">

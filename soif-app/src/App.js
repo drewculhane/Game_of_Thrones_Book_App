@@ -35,20 +35,60 @@ export default function App() {
   console.log("Value Temparray in App", tempArray);
   return (
     <div className="App">
-      <nav>
-        <Link to="/">
-          <p className="Homepage"> Home </p>
-        </Link>
-        <Link to="/BookList">
-          <p className="BookListNav"> BookList </p>
-        </Link>
-        <Link to="/Favorites">
-          <p className="FavoritesNav"> Favorites </p>
-        </Link>
-        <Link to="/About">
-          <p className="About"> About </p>
-        </Link>
+      <header> 
+      <nav className="navbar fixed-top navbar-expand-sm navbar-dark" >
+      <img className="BookEndBrand" src="https://res.cloudinary.com/dgmpgmo60/image/upload/v1593451609/Untitled_r6aafn.png" alt="GoTBookend"/>
+      <a class="navbar-brand" href="/">Ice And Fire Book App</a>
+      <img className="BookendTwo" src="https://res.cloudinary.com/dgmpgmo60/image/upload/v1593451794/kr81gh2injahdpfezzsl.png" alt="GoT BookEnd"/> 
+      <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+      <span className="navbar-toggler-icon"></span>
+      </button>
+      <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
+      <div className="navbar-nav navbar-dark">
+        
+          <a className="nav-item nav-link active" > <span className="sr-only">(current)</span> 
+          <Link className="" to="/">
+            <div className="togglewrapperrr" data-toggle="collapse" data-target=".navbar-collapse.show">
+          Home 
+          </div>
+          </Link>
+          
+          </a>
+        
+       
+          <a className="nav-item nav-link" >
+          <Link className="" to="/BookList">
+          <div className="togglewrapperrr" data-toggle="collapse" data-target=".navbar-collapse.show">
+             BookList
+             </div>
+             </Link>
+             
+              </a>
+        
+     
+          <a className="nav-item nav-link"> 
+          <Link className="" to="/Favorites">
+          <div className="togglewrapperrr" data-toggle="collapse" data-target=".navbar-collapse.show">
+          Favorites
+          </div>
+          </Link>
+           </a>
+       
+       
+          <a className=" nav-item nav-link"> 
+          
+          <Link className="" to="/About">
+          <div className="togglewrapperrr" data-toggle="collapse" data-target=".navbar-collapse.show">
+          About 
+          </div>
+          </Link>
+          </a>
+       
+        </div>
+        </div> 
       </nav>
+      
+      </header> 
       <main>
         <Switch>
           <Route
