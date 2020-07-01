@@ -1,13 +1,15 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import { BrowserRouter } from "react-router-dom";
+import { BrowserRouter, withRouter} from "react-router-dom";
 import './index.css';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
+import ResetPage from "./ResetPage";
 
 ReactDOM.render(
   <React.StrictMode>
   <BrowserRouter>
+  <ResetPage/>
     <App />
   </BrowserRouter>
 </React.StrictMode>,

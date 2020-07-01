@@ -19,10 +19,13 @@ function Favorites(props) {
   return (
     <>
       <div className="Favelist">
+        <div className="FavoritesImages">
         <div className="FaveBaseLayer">
           <img src="https://res.cloudinary.com/dgmpgmo60/image/upload/v1593474172/Untitled_1_ivz4a9.png" className="FaveAnimationFireLayer1"/>
           
           <img src="https://res.cloudinary.com/dgmpgmo60/image/upload/v1593474172/Untitled_1_ivz4a9.png" className="FaveAnimationFireLayer2"/>
+        </div>
+        <div className="ChainzforDayz"></div>
         </div>
         <p className="FavoritesHeaderNew"> Find your favorites here. </p>
         <div className="BooksToDisplay"> {booksToDisplay} </div>

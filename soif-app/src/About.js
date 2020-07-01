@@ -6,12 +6,12 @@ function About() {
         <>
         <div className="Aboutroutercontainer">
         <div className="AboutFirstLayer">
-            <p className="BlackIceText"> More Resources Below </p>
         <div className="AboutAnimationLayer">
         </div>
         </div>
         </div>
         <div className="MoreLinks">
+            <h3> More Resources: </h3>
             <h4 className="MoreLinksHeader"> George R.R. Martin's Website: </h4>
             <a className="FurtherWebLink" href="https://georgerrmartin.com/" target="_blank"> Open George up in a new tab.</a>
             <h4 className="MoreLinksHeader"> Amazon Link to the full 5-book Box Set of A Song of Ice and Fire: </h4>

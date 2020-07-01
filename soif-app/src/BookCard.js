@@ -5,6 +5,10 @@ function BookCard(props, { handleRemove }) {
   const handleRemoveClick = e => {
     props.onFaveToggle();
   };
+  const string=props.book.name; 
+  const replacedplus=string.replace(' ','+');
+  const amazonURL=`https://www.amazon.com/s?k=${replacedplus}&i=stripbooks&ref=nb_sb_noss_2`;
+
   const releaseSlice = props.book.released
     ? props.book.released.slice(0, 4)
     : "";
@@ -26,6 +30,7 @@ function BookCard(props, { handleRemove }) {
         <p> {props.book.numberOfPages} pages </p>
         <p> Released: {releaseSlice} </p>
         <p className="ISBN"> ISBN: {props.book.isbn} </p>
+        <a href={amazonURL} target="_blank">Amazon Search Link</a>
         <button onClick={handleRemoveClick} className="MobileButton2">
           Remove Book
         </button>

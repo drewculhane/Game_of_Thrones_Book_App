@@ -64,30 +64,70 @@ main {
   display: flex; 
   justify-content: center; 
   margin-top: 50px; 
+  flex-direction: column; 
+  align-items: center; 
 }
 .MobileHomepageBase {
-    background-image: url('https://res.cloudinary.com/dgmpgmo60/image/upload/v1593293511/Mobile_Home_Base_2_clerfo.png');
-    min-height: 640px; 
-    max-height: 640px;
+    background-image: url('https://res.cloudinary.com/dgmpgmo60/image/upload/v1593533248/Mobile_Home_Base_Final_Final_nt6ceq.jpg');
+    min-height: 524px; 
+    max-height: 525px; 
     min-width: 375px; 
     max-width: 375px; 
     background-repeat: no-repeat; 
     background-size: cover; 
 }
 .MobileHomepageAnimation { 
-    background-image: url('https://res.cloudinary.com/dgmpgmo60/image/upload/v1593293888/Mobile_Home_Animation_Layer_f9l55w.png');
-    min-height: 640px; 
-    max-height: 640px; 
+    background-image: url('https://res.cloudinary.com/dgmpgmo60/image/upload/v1593533678/Mobile_animation_final_final_final_1_oj7b3j.png');
+    min-height: 524px;
+    max-height: 525px; 
     min-width: 375px; 
     max-width: 375px; 
     background-repeat: no-repeat; 
     background-size: cover; 
     animation: glow3 1.5s alternate infinite; 
 }
+.HomeWelcome {
+  display: flex; 
+  justify-content: center; 
+  min-height: 40px; 
+  font-family: Morpheus; 
+  margin-top: 30px; 
+  min-width: 375px; 
+  color: #EEB61A; 
+  border-left: solid 2px #EEB61A;
+  border-right: solid 2px #EEB61A; 
+  border-bottom: solid 2px #EEB61A;
+  border-top: solid 2px #EEB61A;
+  border-radius: 6px;  
+}
+.HomeWelcome h4 {
+  font-size: 20px; 
+}
+.HomeInstructions {
+  display: flex; 
+  flex-direction: column; 
+  font-family: Morpheus; 
+  color: #EEB61A; 
+  border-left: solid 2px #EEB61A;
+  border-right: solid 2px #EEB61A; 
+  border-bottom: solid 2px #EEB61A;
+  border-top: solid 2px #EEB61A;
+  border-radius: 6px;  
+  padding-left: 10px; 
+  padding-right: 10px; 
+  font-size: 18px; 
+}
+.HomeInstructions p {
+  margin-bottom: 40px; 
+}
+.HomeInstructions ol {
+  margin-bottom: 100px; 
+  font-size: 20px; 
+}
 .AboutFirstLayer {
-    background-image: url('https://res.cloudinary.com/dgmpgmo60/image/upload/v1593478176/About_first_layer_mobile_2_f9bobk.png');
-    min-height: 640px; 
-    max-height: 640px; 
+    background-image: url('https://res.cloudinary.com/dgmpgmo60/image/upload/v1593535042/About_first_layer_mobile_4_pkk2b1.png');
+    min-height: 436px;
+    max-height: 436px; 
     min-width: 375px; 
     max-width: 375px; 
     background-repeat: no-repeat; 
@@ -97,19 +137,18 @@ main {
   display: flex; 
   justify-content: center; 
   background-size: cover; 
-  background-image: url('https://res.cloudinary.com/dgmpgmo60/image/upload/v1593392149/wallpaper-2292997_okqyok.jpg'); 
+  background-color: #1C1D18;
   margin-top: 50px; 
 }
 .AboutAnimationLayer {
-    background-image: url('https://res.cloudinary.com/dgmpgmo60/image/upload/v1593478917/About_final_mobile_animation_fld0wt.png');
-    min-height: 640px; 
-    max-height: 640px;
+    background-image: url('https://res.cloudinary.com/dgmpgmo60/image/upload/v1593535121/About_second_layer_mobile_1_z2b9ld.png');
+    min-height: 436px;
+    max-height: 436px; 
     min-width: 375px; 
     max-width: 375px; 
     background-repeat: no-repeat; 
     background-size: cover; 
     animation: glow3 2s alternate infinite; 
-    margin-top: -26px; 
 }
 .BlackIceText {
   display: inline; 
@@ -130,19 +169,23 @@ main {
   padding-top: 20px; 
   padding-left: 20px; 
   padding-right: 20px; 
+  margin-top: -60px; 
 }
 .MoreLinks h4 {
   margin-bottom: 20px; 
 }
 .MoreLinks a {
-  margin-bottom: 60px; 
+  margin-bottom: 100px; 
   cursor:pointer; 
   
 }
 .MoreLinks a:hover {
   text-decoration: underline; 
 }
-
+.MoreLinks h3 {
+  text-decoration: underline; 
+  margin-bottom: 50px; 
+}
 
 
 
@@ -154,10 +197,18 @@ main {
   justify-content: center; 
   flex-direction: column; 
   margin-top: 60px; 
+  align-items: center; 
+  background-image: url('https://res.cloudinary.com/dgmpgmo60/image/upload/v1593381159/dark-wood-texture_opyudw.jpg'); 
 }
 .ShelfAnimationContainer {
   background-image: url('https://res.cloudinary.com/dgmpgmo60/image/upload/v1593381159/dark-wood-texture_opyudw.jpg'); 
   display: flex; 
+  justify-content: center; 
+  border: none; 
+}
+.ShelfAnimationContainer2 {
+  background-image: url('https://res.cloudinary.com/dgmpgmo60/image/upload/v1593381159/dark-wood-texture_opyudw.jpg'); 
+  display: none; 
   justify-content: center; 
   border: none; 
 }
@@ -174,7 +225,7 @@ main {
 }
  .ShortChain {
   position: relative; 
-  top: 120px;
+  top: 170px; 
   left: 233px; 
   animation: swinging 1.5s ease-in-out infinite; 
   transform-origin: top center; 
@@ -195,7 +246,7 @@ main {
 }
 .LongChain3 {
   position: relative; 
-  top: 180px; 
+  top: 195px; 
   left: -78px; 
   animation: swinging2 1.5s ease-in-out infinite; 
   transform-origin: top center; 
@@ -272,7 +323,6 @@ main {
 .ListANDSpotlight {
   display: flex;
   justify-content: space-around;
-  background-image: url('https://res.cloudinary.com/dgmpgmo60/image/upload/v1593381159/dark-wood-texture_opyudw.jpg'); 
   padding-top: 20px; 
 }
 .BookWrapper {
@@ -317,10 +367,13 @@ main {
 .Spotlight {
   display: none; 
   margin-top: 10%;
-  border: solid 3px #742d33;
-  min-height: 200px;
-  max-height: 440px;
+  border: solid 3px #EEB61A; 
+  background-color: #1C1D18;
+  font-family: Morpheus; 
+  min-height: 500px; 
+  max-height: 550px; 
   border-radius: 10px;
+  padding: 30px; 
 }
 .Spotlight p {
   margin-top: 10px;
@@ -358,15 +411,16 @@ main {
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
-  font-size: 18px;
+  font-size: 25px; 
   justify-content: space-between;
   margin-left: 10%;
   margin-right: 10%;
   margin-top: 2%;
+  color: #EEB61A;
 }
 
 .ISBN {
-  font-size: 12px;
+  font-size: 18px; 
 }
 
 .MobileButton2 {
@@ -389,6 +443,7 @@ main {
   display: flex; 
   flex-direction: column; 
   justify-content: center; 
+  align-items: center; 
   margin-top: 100px; 
   min-height: 100vh; 
 }
@@ -462,6 +517,11 @@ margin-top: -40px;
   font-family: Morpheus; 
   font-size: 20px; 
 }
+.AdditionalFaveDetails a {
+  color: #EEB61A;
+  margin-top: -40px;
+  margin-bottom: -20px; 
+}
 .FavoritesHeaderNew {
   color: #EEB61A;
   font-family: Morpheus; 
@@ -475,6 +535,7 @@ margin-top: -40px;
   max-width: 375px; 
   background-repeat: no-repeat; 
   background-size: cover; 
+  align-self: center; 
 }
 .FaveAnimationFireLayer1 {
   position: relative; 
@@ -494,4 +555,192 @@ margin-top: -40px;
   animation: swinging2 1.5s ease-in-out infinite; 
   transform-origin: baseline center; 
   animation: glow3 1.5s alternate infinite; 
+}
+@media only screen and (min-width: 768px) {
+.HomeWelcome {
+  margin-left: 50px;
+  margin-right: 50px; 
+  padding-left: 5px; 
+  padding-right: 5px; 
+}
+.HomeInstructions {
+  margin-left: 50px;
+  margin-right: 50px; 
+  margin-bottom: 300px; 
+}
+.MobileHomepageBase {
+  background-image: url('https://res.cloudinary.com/dgmpgmo60/image/upload/v1593545763/Dragons_Homepage_Tablet_Desktop_g7bmj1.png');
+  min-height: 524px; 
+  max-height: 525px; 
+  min-width: 768px;
+  max-width: 768px;  
+  background-repeat: no-repeat; 
+  background-size: cover; 
+}
+.MobileHomepageAnimation { 
+  background-image: url('https://res.cloudinary.com/dgmpgmo60/image/upload/v1593545768/Dragons_Tablet_Base_2_1_hcwyfv.png');
+  min-height: 524px;
+  max-height: 525px; 
+  min-width: 768px;
+  max-width: 768px;  
+  background-repeat: no-repeat; 
+  background-size: cover; 
+  animation: glow3 1.5s alternate infinite; 
+}
+.ShelfAnimationContainer {
+  background: none; 
+  margin-left: 20px; 
+  padding-top: 20px; 
+}
+.ShelfAnimationContainer2 {
+  display: flex; 
+  background: none; 
+  padding-top: 30px; 
+  margin-left: -25px;  
+}
+.LibraryAnimationContainer {
+  display: flex; 
+  flex-direction: row;
+  background-repeat: none; 
+  background-size: cover; 
+  max-width: 768px; 
+}
+.ListANDSpotlight {
+  display: flex; 
+  min-width: 500px; 
+  flex-direction: row; 
+  justify-content: space-between; 
+  margin-bottom: 250px; 
+}
+.Spotlight {
+  display: block; 
+  margin-left: 100px;
+}
+.BookList {
+  padding-top: 20px; 
+  overflow: auto; 
+  max-height: 700px; 
+  min-width: 240px; 
+  max-width: 250px; 
+  background-color: #1C1D18; 
+  border-radius: 10px; 
+  border: 2px solid #EEB61A;
+}
+.Booklist::-webkit-scrollbar {
+  -webkit-appearance: none;
+}
+.BookList::-webkit-scrollbar:vertical {
+  width: 11px;
+}
+
+.BookList::-webkit-scrollbar:horizontal {
+  height: 11px;
+}
+
+.BookList::-webkit-scrollbar-thumb {
+  border-radius: 8px;
+  border: 2px solid #EEB61A; 
+}
+.FavoritesImages {
+  display: flex; 
+  flex-direction: row; 
+  background-image: url('https://res.cloudinary.com/dgmpgmo60/image/upload/v1593381159/dark-wood-texture_opyudw.jpg');
+}
+.ChainzforDayz { 
+  background-image: url('https://res.cloudinary.com/dgmpgmo60/image/upload/v1593550822/BookList_base_mobile_3_s7cc9g.png');
+  min-width: 369px; 
+  max-width: 369px;
+  min-height: 250px;  
+  max-height: 250px; 
+  background-size: cover; 
+  background-repeat: no-repeat; 
+  margin-top: -20px; 
+}
+.Favelist {
+  background-image: url('https://res.cloudinary.com/dgmpgmo60/image/upload/v1593381159/dark-wood-texture_opyudw.jpg'); 
+  background-repeat: repeat; 
+  margin-top: -100px; 
+  padding-bottom: 600px;
+  padding-top: 300px;  
+}
+.BookDisplaySwitch {
+  margin-left: 15vw; 
+  margin-right: 15vw; 
+  padding-top: 20px; 
+  padding-bottom: 20px; 
+  padding-left: 10vw; 
+  padding-right: 10vw; 
+}
+.FavesDetailsContainer {
+  font-size: 16px; 
+}
+.AdditionalFaveDetails {
+  font-size: 20px; 
+}
+.AboutFirstLayer {
+  background-image: url('https://res.cloudinary.com/dgmpgmo60/image/upload/v1593556394/bwxmMC8jErMx_1_fjxcfh.jpg');
+  min-height: 436px;
+  max-height: 436px; 
+  min-width: 768px;
+  max-width: 768px;  
+  background-repeat: no-repeat; 
+  background-size: cover; 
+  margin-top: 10px; 
+}
+.AboutAnimationLayer {
+  background-image: url('https://res.cloudinary.com/dgmpgmo60/image/upload/v1593556431/bwxmMC8jErMx_et12aa.png');
+  min-height: 436px;
+  max-height: 436px; 
+  min-width: 768px;
+  max-width: 768px; 
+  background-repeat: no-repeat; 
+  background-size: cover; 
+  animation: glow3 2s alternate infinite; 
+}
+.MoreLinks {
+  margin-top: 0px; 
+  margin-left: 25px; 
+  margin-right: 25px; 
+  padding-bottom: 100px;
+  margin-bottom: 300px; 
+  border-radius: 6px;  
+}
+}
+@media only screen and (min-width: 769px) {
+  .MaxwidthHome {
+    max-width: 768px; 
+    display: flex; 
+    flex-direction: column; 
+    align-items: center; 
+    background-color: #1C1D18; 
+    padding-bottom: 15vh; 
+    margin-bottom: 15vh; 
+  }
+  .MarginWood {
+    background-color: #1C1D18;
+    display: flex; 
+    flex-direction: column; 
+    align-items: center; 
+  }
+  .MobileHomepageBase {
+    margin-top: 3vh; 
+    margin-bottom: 3vh; 
+    border: 1px solid #EEB61A;
+    border-radius: 10px; 
+  }
+  .HomeInstructions {
+    font-size: 25px; 
+  }
+  .HomeWelcome {
+    font-size: 6
+  }
+  .FavoritesInstructions {
+    margin-left: 15vw; 
+    margin-right: 15vw; 
+    font-size: 25px; 
+    margin-bottom: 3vh; 
+  }
+  .ListANDSpotlight {
+    padding-bottom: 30vh; 
+  }
 }

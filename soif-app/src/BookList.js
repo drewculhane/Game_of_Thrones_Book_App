@@ -41,6 +41,7 @@ function BookList(props) {
   return (
     <>
       <div className="BookListContainer">
+        <div className="LibraryAnimationContainer">
       <div className="ShelfAnimationContainer">
       <div className="BookChains">
         <img className="ShortChain" src="https://res.cloudinary.com/dgmpgmo60/image/upload/v1593390493/shortchainmobile_mfqonm.png" alt="chain" /> 
@@ -51,17 +52,22 @@ function BookList(props) {
         <img className="LongChain4" src="https://res.cloudinary.com/dgmpgmo60/image/upload/v1593390473/BookList_long_chain_wqtvhw.png" alt="chain"/>
         <img />
       </div>
+      </div>
+      <div className="ShelfAnimationContainer2">
+      <div className="BookChains">
+        <img className="ShortChain" src="https://res.cloudinary.com/dgmpgmo60/image/upload/v1593390493/shortchainmobile_mfqonm.png" alt="chain" /> 
+        <img className="LongChain" src="https://res.cloudinary.com/dgmpgmo60/image/upload/v1593390473/BookList_long_chain_wqtvhw.png" alt="chain"/>
+        <img className="LongChain2" src="https://res.cloudinary.com/dgmpgmo60/image/upload/v1593390473/BookList_long_chain_wqtvhw.png" alt="chain"/>
+        <img className="LongChain3" src="https://res.cloudinary.com/dgmpgmo60/image/upload/v1593390473/BookList_long_chain_wqtvhw.png" alt="chain"/>
+        <img className="LongChain3" src="https://res.cloudinary.com/dgmpgmo60/image/upload/v1593390473/BookList_long_chain_wqtvhw.png" alt="chain"/>
+        <img className="LongChain4" src="https://res.cloudinary.com/dgmpgmo60/image/upload/v1593390473/BookList_long_chain_wqtvhw.png" alt="chain"/>
+        <img />
+      </div>
       </div> 
+      </div>
       <div className="FavoritesInstructions">
-        <p className="TextFavoritesInstructions"> All the books below are related to the universe of Ice and Fire, 
-        but only those listed directly below are part of the series' chronology. <br></br><br></br> To add a book to your favorites, simply click on the favorite button on the book cover, and view more about the book in the Favorites tab. </p>
-        <ol className="SoiFChronology">
-          <li> A Game of Thrones</li>
-          <li> A Clash of Kings</li>
-          <li> A Storm of Swords</li>
-          <li> A Feast for Crows</li>
-          <li> A Dance with Dragons</li> 
-        </ol>
+        <p className="TextFavoritesInstructions"> To add a book to your favorites, simply click on the favorite button on the book cover, and view more about the book in the Favorites tab. If you are on a tablet or a laptop, you can click the name of each book to put it in the spotlight.</p>
+     
       </div>
       <div className="ListANDSpotlight">
         <div className="BookList">{booksToDisplay}</div>
