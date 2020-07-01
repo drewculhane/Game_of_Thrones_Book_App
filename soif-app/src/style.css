@@ -627,12 +627,17 @@ margin-top: -40px;
   border: 2px solid #EEB61A;
 }
 
-main::-webkit-scrollbar-track {
+body::-webkit-scrollbar-track {
   background-color: #1C1D18;
 }
-main::-webkit-scrollbar-thumb {
-  background-color: #EEB61A; 
+body::-webkit-scrollbar-thumb {
+  background-color: #EEB61A;
+  border-radius: 3px;  
 }
+body::-webkit-scrollbar {
+  width: 1em;
+}
+
 .FavoritesImages {
   display: flex; 
   flex-direction: row; 
