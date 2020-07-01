@@ -4,8 +4,8 @@ ReactProject
 
 ## Project Links
 
-- [https://github.com/drewculhane/ReactProject]()
-- [add your deployment link]()
+- [React Github Link](https://github.com/drewculhane/ReactProject)
+- [DeploymentLink](https://quizzical-bell-46d340.netlify.app)
 
 ## Project Description
 
@@ -19,29 +19,29 @@ The main difference between the functionality of desktop and mobile, will be tha
 
 Please find the API in the codesandbox below. If you console.log, you will see that the API and my code for the retrieval, are fully functional. 
 
--[https://codesandbox.io/s/api-test-got-mfxxv]()
+-[Sandbox](https://codesandbox.io/s/api-test-got-mfxxv)
 
 
 ## Wireframes
 
 Upload images of wireframe to cloudinary and add the link here with a description of the specific wireframe. Also, define the the React components and the architectural design of your app.
 
-- [https://res.cloudinary.com/dgmpgmo60/image/upload/v1593137511/React%20Hierarchy%20and%20Wireframes/Wireframe_Home_Mobile_zfkdhv.png]()
-Home Mobile Wireframe
--[https://res.cloudinary.com/dgmpgmo60/image/upload/v1593137522/React%20Hierarchy%20and%20Wireframes/Wireframe_Book_List_Mobile_ord1al.png]()
-Book List Mobile Wireframe
--[https://res.cloudinary.com/dgmpgmo60/image/upload/v1593137526/React%20Hierarchy%20and%20Wireframes/Wireframe_Spotlight_Mobile_awyeh7.png]()
-Spotlight Mobile Wireframe
--[https://res.cloudinary.com/dgmpgmo60/image/upload/v1593137538/React%20Hierarchy%20and%20Wireframes/Wireframe_About_Mobile_rbkq5w.png]()
-About Mobile Wireframe
--[https://res.cloudinary.com/dgmpgmo60/image/upload/v1593137554/React%20Hierarchy%20and%20Wireframes/Wireframe_Desktop_Tablet_Home_zhxt8o.png]()
-Home Desktop/Tablet Wireframe. It will include the spotlight mentioned in mobile wireframes however. 
--[https://res.cloudinary.com/dgmpgmo60/image/upload/v1593137550/React%20Hierarchy%20and%20Wireframes/List_of_Books_Component_Desktop_Tablet_xf9c4j.png]()
-List of Books component in the desktop/tablet wireframe. 
--[https://res.cloudinary.com/dgmpgmo60/image/upload/v1593137543/React%20Hierarchy%20and%20Wireframes/Desktop_Tablet_wireframe_About_sue84u.png]()
-About component in Desktop/Tablet Wireframe. 
-- [https://res.cloudinary.com/dgmpgmo60/image/upload/v1593137506/React%20Hierarchy%20and%20Wireframes/React_Hierachy_oxx4eu.png]()
-COMPONENT WIREFRAME.... Mobile and Desktop will both include spotlight component. To account for the spotlight component not being on the same
+- [Home Mobile Wireframe](https://res.cloudinary.com/dgmpgmo60/image/upload/v1593137511/React%20Hierarchy%20and%20Wireframes/Wireframe_Home_Mobile_zfkdhv.png)
+
+-[Book List Mobile Wireframe](https://res.cloudinary.com/dgmpgmo60/image/upload/v1593137522/React%20Hierarchy%20and%20Wireframes/Wireframe_Book_List_Mobile_ord1al.png)
+
+-[Spotlight Mobile Wireframe](https://res.cloudinary.com/dgmpgmo60/image/upload/v1593137526/React%20Hierarchy%20and%20Wireframes/Wireframe_Spotlight_Mobile_awyeh7.png)
+
+-[About Mobile Wireframe](https://res.cloudinary.com/dgmpgmo60/image/upload/v1593137538/React%20Hierarchy%20and%20Wireframes/Wireframe_About_Mobile_rbkq5w.png)
+
+-[Home Desktop/Tablet Wireframe. It will include the spotlight mentioned in mobile wireframes however. ](https://res.cloudinary.com/dgmpgmo60/image/upload/v1593137554/React%20Hierarchy%20and%20Wireframes/Wireframe_Desktop_Tablet_Home_zhxt8o.png)
+
+-[List of Books component in the desktop/tablet wireframe. ](https://res.cloudinary.com/dgmpgmo60/image/upload/v1593137550/React%20Hierarchy%20and%20Wireframes/List_of_Books_Component_Desktop_Tablet_xf9c4j.png)
+
+-[About component in Desktop/Tablet Wireframe. ](https://res.cloudinary.com/dgmpgmo60/image/upload/v1593137543/React%20Hierarchy%20and%20Wireframes/Desktop_Tablet_wireframe_About_sue84u.png)
+
+- [COMPONENT WIREFRAME](https://res.cloudinary.com/dgmpgmo60/image/upload/v1593137506/React%20Hierarchy%20and%20Wireframes/React_Hierachy_oxx4eu.png)
+.... Mobile and Desktop will both include spotlight component. To account for the spotlight component not being on the same
 page as the Book List in mobile, add to favourites/spotlight button will be included on each book component in mobile. 
 
 
@@ -74,30 +74,32 @@ Based on the initial logic defined in the previous sections try and breakdown th
 | Spotlight Component | Will need set up with handleclicks. Again, refer to Pokedex sandbox, see if you can leverage useContext |
 
 
-Time frames are also key in the development cycle.  You have limited time to code all phases of the website.  Your estimates can then be used to evalute game possibilities based on time needed and the actual time you have before game must be submitted. It's always best to pad the time by a few hours so that you account for the unknown so add and additional hour or two to each component to play it safe. Also, put a gif at the top of your Readme before you pitch, and you'll get a panda prize.
+Time frames are also key in the development cycle. 
 
 | Component | Priority | Estimated Time | Time Invetsted | Actual Time |
 | --- | :---: |  :---: | :---: | :---: |
-| App Api  | H | 0.5hrs| |  |
-| App Router Setup| H | 2hrs| | |
-| Nav setup with Boostrap | H | 1.5hrs|  |  |
-| Text and links in Home/About | 1hr | | |
-| Book and Booklist Component | 2hr |
-| Setting up classNames for media query display changes, and Fave toggle display changes for mobile/desktop| 4hrs|
-| Getting favorites to show up in Spotlight | 4hrs |
-|  Minmum acceptable media query changes | 5hrs |
+| App Api  | H | 0.5hrs| | 0.5hrs |
+| App Router Setup| H | 2hrs| 2hrs |
+| Nav setup with Boostrap | H | 1.5hrs| 4hrs  |  |
+| Text and links in Home/About | 1hr | 1hr |
+| Book and Booklist Component | 2hr | 4hrs |
+| Setting up classNames for media query display changes, and Fave toggle display changes for mobile/desktop| 12hrs |
+| Getting favorites to show up in Spotlight in both desktop/tablet and phone.  | 1hr |
+|  Minmum acceptable media query changes | 10hrs |
 
-Total time expected to hit MVP: 20 hours. 
+Total time expected to hit MVP: 20 hours. Actual time: 30 hours. 
+Time spent on MVP+ 15 hours.
 
 ## Additional Libraries
- Use this section to list all supporting libraries and thier role in the project such as Axios, ReactStrap, D3, etc. 
+ Boostrap: Navbar basic responsiveness. 
+ React/React-Router-Dom: React basic framework. 
 
 ## Code Snippet
 
-Use this section to include a brief code snippet of functionality that you are proud of an a brief description.  Code snippet should not be greater than 10 lines of code. 
+Allows a book search using string template literal instead of an API for Amazon. Saving a lot of time. 
 
 ```
-function reverse(string) {
-	// here is the code to reverse a string of text
-}
+const string=props.book.name; 
+  const replacedplus=string.replace(' ','+');
+  const amazonURL=`https://www.amazon.com/s?k=${replacedplus}&i=stripbooks&ref=nb_sb_noss_2`;
 ```
