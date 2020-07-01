@@ -626,20 +626,12 @@ margin-top: -40px;
   border-radius: 10px; 
   border: 2px solid #EEB61A;
 }
-.Booklist::-webkit-scrollbar {
-  -webkit-appearance: none;
-}
-.BookList::-webkit-scrollbar:vertical {
-  width: 11px;
-}
 
-.BookList::-webkit-scrollbar:horizontal {
-  height: 11px;
+main::-webkit-scrollbar-track {
+  background-color: #1C1D18;
 }
-
-.BookList::-webkit-scrollbar-thumb {
-  border-radius: 8px;
-  border: 2px solid #EEB61A; 
+main::-webkit-scrollbar-thumb {
+  background-color: #EEB61A; 
 }
 .FavoritesImages {
   display: flex; 
@@ -742,5 +734,12 @@ margin-top: -40px;
   }
   .ListANDSpotlight {
     padding-bottom: 30vh; 
+  }
+  .AboutFirstLayer {
+    background-image: url('https://res.cloudinary.com/dgmpgmo60/image/upload/v1593567634/bwxmMC8jErMx_3_tikgrs.jpg')
+  }
+  .MoreLinks {
+    margin-left: 15vw; 
+    margin-right: 15vw; 
   }
 }

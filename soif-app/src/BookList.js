@@ -70,7 +70,7 @@ function BookList(props) {
      
       </div>
       <div className="ListANDSpotlight">
-        <div className="BookList">{booksToDisplay}</div>
+        <div id="books" className="BookList">{booksToDisplay}</div>
         <div className="Spotlight">
           <div className="BookWrapper2">
             <div className="SpotlightDetailsContainer">
