@@ -78,14 +78,14 @@ Time frames are also key in the development cycle.
 
 | Component | Priority | Estimated Time | Time Invetsted | Actual Time |
 | --- | :---: |  :---: | :---: | :---: |
-| App Api  | H | 0.5hrs| | 0.5hrs |
-| App Router Setup| H | 2hrs| 2hrs |
-| Nav setup with Boostrap | H | 1.5hrs| 4hrs  |  |
-| Text and links in Home/About | 1hr | 1hr |
-| Book and Booklist Component | 2hr | 4hrs |
-| Setting up classNames for media query display changes, and Fave toggle display changes for mobile/desktop| 12hrs |
-| Getting favorites to show up in Spotlight in both desktop/tablet and phone.  | 1hr |
-|  Minmum acceptable media query changes | 10hrs |
+| App Api  | H | 0.5hrs| 0.5hrs  | 0.5hrs |
+| App Router Setup| H | 2hrs| 2hrs | 2hrs|
+| Nav setup with Boostrap | H | 1.5hrs| 4hrs  | 4hrs  |
+| Text and links in Home/About |H| 1hr | 1hr | 1hr
+| Book and Booklist Component| H | 2hr | 4hrs | 4hrs |
+| Setting up classNames for media query display changes, and Fave toggle display changes for mobile/desktop| H| 5hrs| 12hrs |12hrs |
+| Getting favorites to show up in Spotlight in both desktop/tablet and phone. |M| 1hr | 5hrs | 5hrs| 
+|  Minmum acceptable media query changes |M| 3hrs| 10hrs| 10hrs |
 
 Total time expected to hit MVP: 20 hours. Actual time: 30 hours. 
 Time spent on MVP+ 15 hours.
