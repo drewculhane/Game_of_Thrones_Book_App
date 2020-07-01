@@ -627,15 +627,20 @@ margin-top: -40px;
   border: 2px solid #EEB61A;
 }
 
-body::-webkit-scrollbar-track {
-  background-color: #1C1D18;
-}
-body::-webkit-scrollbar-thumb {
-  background-color: #EEB61A;
-  border-radius: 3px;  
-}
-body::-webkit-scrollbar {
+::-webkit-scrollbar {
   width: 1em;
+  background-color: #1C1D18; 
+}
+#books::-webkit-scrollbar {
+  border-radius: 8px; 
+}
+::-webkit-scrollbar-track,  #books::-webkit-scrollbar-track  {
+  background-color: #1C1D18;
+  border-radius: 8px; 
+}
+::-webkit-scrollbar-thumb,  #books::-webkit-scrollbar-thumb {
+  background-color: #EEB61A;
+  border-radius: 8px;  
 }
 
 .FavoritesImages {
